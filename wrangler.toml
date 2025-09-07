@@ -3,8 +3,8 @@ compatibility_date = "2023-12-01"
 compatibility_flags = ["nodejs_compat"]
 
 [[d1_databases]]
-binding = "katelyatv_db"
-database_name = "katelyatv-db"
+binding = "DB"
+database_name = "DB"
 database_id = "69ea9d38-d12a-4aab-97ba-572236e2e321"  # 替换为步骤1中获得的ID
 
 [build]
