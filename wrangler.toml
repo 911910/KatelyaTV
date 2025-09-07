@@ -9,7 +9,7 @@ name = "katelyatv"
 
 # 生产环境 D1 数据库配置
 [[env.production.d1_databases]]
-binding = "DB"
+binding = "katelyatv_db"
 database_name = "katelyatv-db"
 database_id = "4b41052c-ae4b-43fa-b725-ca9442eb31c3"
 
@@ -36,7 +36,7 @@ name = "katelyatv-preview"
 
 # 预览环境 D1 数据库配置
 [[env.preview.d1_databases]]
-binding = "DB"
+binding = "katelyatv_db"
 database_name = "katelyatv-db"
 database_id = "4b41052c-ae4b-43fa-b725-ca9442eb31c3"
 
