@@ -10,10 +10,3 @@ database_id = "69ea9d38-d12a-4aab-97ba-572236e2e321"  # 替换为步骤1中获�
 [build]
 command = "pnpm install --frozen-lockfile && pnpm run pages:build"
 
-[[build.environment_variables]]
-NEXT_PUBLIC_STORAGE_TYPE = "d1"
-
-[vars]
-USERNAME = "admin"
-PASSWORD = "108198.com"
-NEXT_PUBLIC_ENABLE_REGISTER = "true"
