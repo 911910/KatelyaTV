@@ -5,7 +5,7 @@ compatibility_flags = ["nodejs_compat"]
 [[d1_databases]]
 binding = "katelyatv_db"
 database_name = "katelyatv-db"
-database_id = "4b41052c-ae4b-43fa-b725-ca9442eb31c3"  # 替换为步骤1中获得的ID
+database_id = "69ea9d38-d12a-4aab-97ba-572236e2e321"  # 替换为步骤1中获得的ID
 
 [build]
 command = "pnpm install --frozen-lockfile && pnpm run pages:build"
