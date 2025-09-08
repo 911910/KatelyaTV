@@ -13,7 +13,7 @@ command = "pnpm install --frozen-lockfile && pnpm run pages:build"
 [[build.environment_variables]]
 NEXT_PUBLIC_STORAGE_TYPE = "d1"
 
-[vars]
+[vars] 
 USERNAME = "admin"
 PASSWORD = "108198.com"
 NEXT_PUBLIC_ENABLE_REGISTER = "true"
